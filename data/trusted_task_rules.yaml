@@ -1,5 +1,6 @@
 ---
-trusted_task_rules:
-allow:
-  - name: Allow all konflux tasks
-    pattern: oci://quay.io/konflux-ci/tekton-catalog/*
+rule_data:
+  trusted_task_rules:
+  allow:
+    - name: Allow all konflux tasks
+      pattern: oci://quay.io/konflux-ci/tekton-catalog/*
