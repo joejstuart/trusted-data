@@ -2,5 +2,5 @@
 trusted_task_rules:
   allow:
   - name: Allow all konflux tasks
-    pattern: oci://quay.io/onflux-ci/tekton-catalog/*
-    versions: <0.8
+    pattern: oci://quay.io/konflux-ci/tekton-catalog/*
+
