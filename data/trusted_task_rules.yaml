@@ -4,4 +4,4 @@ trusted_task_rules:
   - name: Allow all konflux tasks
     pattern: oci://quay.io/konflux-ci/tekton-catalog/*
     versions: 
-    - ">=0.1"
+    - ">=0.7"
